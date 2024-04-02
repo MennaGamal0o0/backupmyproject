@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merienda", cursive;
+}
+.cakes{
+    min-height:250vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("terra-Q0G5nE86Ohw-unsplash.jpg"); 
+    background-size: cover;
+    background-repeat: round;
+    background-attachment: fixed;
+}
+header{
+    height: 150px;
+    background: rgba(12,11,9,0.8);   
+    border-bottom: 2px solid rgba(12,11,9,0.9);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+header h1{
+    color:#fff;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul{
+    display: flex;    
+}
+header nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 100%;
+    text-transform: uppercase;
+    transition: 0.4s ease-in;
+}
+header nav ul li a:hover{
+    color: #ddab6eec;
+}
+header nav ul li a i{
+    margin-right: 5px;
+}
+.cart{
+    padding: 5px 30px ;
+    background-color:#ddab6eec;
+    color: #000000b9;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+.cart:hover{
+    color:#ddab6eec;
+    background-color: transparent ;
+    border: solid 2px #ddab6eec;
+
+}
+.cart i{
+    margin-left: 10px;
+}
+/*------------------------food list-----------*/
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    padding: 50px; 
+    position: absolute;
+    top: 150px;
+}
+.container .food-box{
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    background:rgba(0,0,0,0.6);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border:  3px solid ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+}
+.container .food-box img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: #0000007f 5px solid;
+}
+.container .food-box img:hover{
+    transform: scale(1.2);
+}
+.container .food-box h2{
+    color: #fff;
+}
+.container .food-box h3{
+    color:#ff929bb0;
+    font-weight: 200;
+}
+.container .food-box .add-cart{
+    padding: 5px 10px;
+    background-color:#ddab6eec;
+    color: #000000b9;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    margin-top: 5px;
+
+}
+.container .food-box .add-cart:hover{
+    color:#da6e77c2;
+    background-color: transparent ;
+    border: solid 2px #da6e77c2;
+}
+video{
+    margin-top: 2000px;
+    align-items: center;
+    text-align: center;
+}

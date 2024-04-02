@@ -1,0 +1,231 @@
+body {
+    background-image: url("ricardo-honda-Xd5F5tEN_0w-unsplash.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ h1.logo{
+    text-transform: uppercase;
+    color: #fff;
+}
+ nav{
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0,0,0.7);
+    color:#fff;
+    padding: 10px 20px;
+
+
+}
+ nav ul{
+display: flex;
+
+}
+
+ nav ul li{
+    list-style: none;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding: 10px;
+
+    
+}
+
+ nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 100%;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+}
+nav ul li a:hover{
+    color: #e61022ce;
+}
+h3{
+
+    color:#fff;
+    padding: 10px;
+    font-weight: 100;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    border :  solid rgba(0, 0,0,0.9) 2px ;
+    background-color: rgba(12,11,9,0.6);
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 150px;
+}
+.desc{
+    border: #0000007f 2px solid;
+    justify-content: center;
+    align-items: center;
+    color: #ece4e4;
+    font-size: larger;
+    background: rgba(12,11,9,0.6);
+    padding: 10px;
+text-align: center;
+margin-top: 50px;
+}
+.special{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    margin-top: 200px;
+    
+}
+
+.special h1{
+    background-color: #ff929b7b;
+    padding:10px ;
+    font-size: 20px;
+    word-spacing: 5px;
+    position: absolute;
+    border-radius: 30px;
+    top:310px ;
+}
+
+.special .special-box{
+    background:rgb(12,11,9,0.6);
+    margin-top: -100px ;
+    border-radius: 100px;
+    border:  solid ;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.special-box img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: #0000007f 5px solid;
+}
+
+.special-box img:hover{
+    transform: scale(1.2);
+}
+
+.special-box h2{
+    color: #fff;
+}
+
+.special-box h3{
+    color:#ff929bb0;
+    font-weight: 200;
+}
+main {
+    padding: 20px;
+}
+
+main h1 {
+    margin-top: 0;
+}
+
+main p {
+    font-size: 18px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+main ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+fieldset{
+    margin-top: 50px;
+   
+    background-color: rgba(65, 41, 11, 0.432);
+}
+form{
+    background-color: rgba(50, 33, 11, 0.693);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: end;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+table {
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    background-color: rgba(50, 33, 11, 0.693);
+    color:#ece4e4;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.veiw{
+    color: gold;
+    font-size: 20px;
+    border: solid 2px gold;
+    box-shadow: inset;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    
+}
+footer {
+    background-color:rgba(0, 0,0,0.9);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    font-size: 30px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a img {
+    width: 20px;
+    height: 20px;
+}
+:placeholder-shown{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.2);
+}
+legend{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
